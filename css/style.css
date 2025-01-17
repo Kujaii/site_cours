@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: grid;
+    grid-template-rows: 20% 80%;
+    grid-template-columns: 1fr 2fr;
+    gap: 40px;
+    height: 100vh;
+    padding-inline: 40px;
+  }
+  
+  header {
+    grid-column: span 2;
+    background-color: purple;
+    border-radius: 15px;
+  }
+  
+  nav {
+    background-color: purple;
+    border-radius: 15px;
+  }
+  
+  main {
+    background-color: purple;
+    border-radius: 15px;
+  }
+  
