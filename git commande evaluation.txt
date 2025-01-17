@@ -1,0 +1,23 @@
+Adam Boukhetouta
+git init
+git remote add origin https://github.com/Kujaii/site_cours.git
+git add html/index.html
+git checkout -b html
+git commit -m "structure de base du site"
+git config --global user.email "adam.boukhetouta@efrei.net"
+git config --global user.name "Adam20055"
+git push origin html
+git checkout -b image
+gitadd image/135211.webp
+ardoise-de-film-et-bobine-de-film-sur-le-bois-36502412.webp
+watch.htm
+git commit -m "image v1"
+git push origin image
+git fetch --all
+git checkout origin/html
+git pull origin/html
+git add html/index.html
+git commit -m "interstellar"
+git push origin html
+
+
