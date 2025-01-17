@@ -1,0 +1,29 @@
+git init
+git clone https://github.com/Kujaii/site_cours.git
+git config user.name "Kylianff"
+git config user.email "kylianfeniche50@gmail.com"
+git pull origin master
+git checkout -b Css
+mkdir css
+nano css/style.css
+git add css/style.css
+git commit -m "Première version du css"
+git push origin master
+ajout du Tokken
+git fetch --all
+git branch -a
+git checkout html
+git pull origin html
+nano index.html
+ajout code html
+git add index.html
+git commit -m "Ajout de la div et de la bande annonce"
+git push origin html
+git checkout origin/Css
+git pull origin Css
+nano css/style.css
+git add css/style.css
+git commit -m "Ajustement du css"
+git push origin Css
+
+
